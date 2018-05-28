@@ -7,9 +7,13 @@ Ardından "git clone https://github.com/onurtaskiran95/Randevu.git" komutunu ça
 
 Portal dizinindeki "\frontend\config\main.php" dosyasına girerek şu satırları ekliyoruz;
 
+------------------------------------------
+
 'Randevu' => [
             'class' => 'kouosl\Randevu\Module'  
         ],
+        
+------------------------------------------   
 
 Portal klasörünün içerisindeki composer.json dosyasında gerekli yerlere şu satırları ekliyoruz;
 
@@ -36,14 +40,22 @@ Portal klasörünün içerisindeki composer.json dosyasında gerekli yerlere şu
 
 Ekledikten sonra sanal makinaya bağlanarak şu komutları çalıştırıyoruz;
 
+------------------------------------------
+
 cd /var/www/portal
 sudo chmod -R 777 vendor/kouosl/Randevu
 composer update
 
+------------------------------------------
+
 Son adım olarakda modülümüzde "migrations" klasöründeki .php uzantılı dosyayı kopyalayıyoruz ve portal dizininde "console/migrations/" altına yapıştırıyoruz(klasör yok ise kendimiz oluşturuyoruz).
 Ardından sanal makinamızda,
 
- php yii migrate
+------------------------------------------
+
+php yii migrate
+
+------------------------------------------
  
 Komutunu çalıştırıyoruz böylelikle veritabanımızı oluşturup örnek bir kayıt ekliyoruz. 
 
@@ -53,6 +65,7 @@ http://portal.kouosl/Randevu buradan modüle ulaşabilirsiniz.
 
 Modülü kullanırken tarih formatını yıl-ay-gün şeklinde girilmesi gerekmektedir.
 
+------------------------------------------
 
 Onur Taşkıran - 141307031
 
