@@ -52,3 +52,7 @@ Modül kurulumu tamamlanmıştır.
 http://portal.kouosl/Randevu buradan modüle ulaşabilirsiniz.
 
 Modülü kullanırken tarih formatını yıl-ay-gün şeklinde girilmesi gerekmektedir.
+
+
+Onur Taşkıran - 141307031
+
