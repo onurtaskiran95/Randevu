@@ -13,7 +13,7 @@ Portal dizinindeki "\frontend\config\main.php" dosyasına girerek şu satırlar�
 
 Portal klasörünün içerisindeki composer.json dosyasında gerekli yerlere şu satırları ekliyoruz;
 
-############################
+------------------------------------------
 
 "repositories": [
     {
@@ -32,7 +32,7 @@ Portal klasörünün içerisindeki composer.json dosyasında gerekli yerlere şu
     "kouosl/Randevu": "dev-master"
 },
 
-############################
+------------------------------------------
 
 Ekledikten sonra sanal makinaya bağlanarak şu komutları çalıştırıyoruz;
 
