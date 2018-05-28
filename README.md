@@ -4,6 +4,13 @@ Randevu modülünü eklemek için öncelikle,
 
 Komut satırında modülümüzü ekleyeceğimiz yere (@vendor/kouosl/) altına geliyoruz.
 Ardından "git clone https://github.com/onurtaskiran95/Randevu.git" komutunu çalıştırarak modülümüzü projemize indiriyoruz.
+
+Portal dizinindeki "\frontend\config\main.php" dosyasına girerek şu satırları ekliyoruz;
+
+'Randevu' => [
+            'class' => 'kouosl\Randevu\Module'  
+        ],
+
 Portal klasörünün içerisindeki composer.json dosyasında gerekli yerlere şu satırları ekliyoruz;
 
 ############################
