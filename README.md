@@ -50,3 +50,5 @@ Komutunu çalıştırıyoruz böylelikle veritabanımızı oluşturup örnek bir
 Modül kurulumu tamamlanmıştır.
 
 http://portal.kouosl/Randevu buradan modüle ulaşabilirsiniz.
+
+Modülü kullanırken tarih formatını yıl-ay-gün şeklinde girilmesi gerekmektedir.
