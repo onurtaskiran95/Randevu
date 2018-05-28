@@ -41,3 +41,5 @@ Ardından sanal makinamızda,
 Komutunu çalıştırıyoruz böylelikle veritabanımızı oluşturup örnek bir kayıt ekliyoruz. 
 
 Modül kurulumu tamamlanmıştır.
+
+http://portal.kouosl/Randevu buradan modüle ulaşabilirsiniz.
